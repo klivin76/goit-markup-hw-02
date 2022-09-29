@@ -1,0 +1,42 @@
+body {
+    background-color: #F5F5F5;
+    color: #212121;
+}
+
+.list {
+    list-style: none;
+}
+/* колір основного тексту #212121*/
+
+/* вторинний колір тексту rgba(117, 117, 117, 1) */
+
+/* білий #FFFFFF */
+/* акцент #2196F3 */
+/* вторинний колір фона #F5F4FA */
+/* колір контактів #757575 */
+
+.logo .logo-web {
+    color: #2196F3
+}
+
+.logo .logo-studio {
+    color: #000000
+}
+
+.site-nav .link {
+    color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196F3;
+}
+
+.nav .item {
+    color: #757575;
+}
+
+.nav .item:hover,
+ .nav .item:focus {
+    color: #2196F3;
+}
