@@ -6,7 +6,7 @@
     --background-color-primary: #2F303A;
     --background-color: #F5F5F5;
     --background-color-sekondary: #F5F4FA;
-}
+} 
 
 body {
     background-color: var(--background-color);
@@ -51,6 +51,10 @@ body {
     color: var(--accent-color);
 }
 
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
 .nav .item {
     color: var(--text-color);
 }
@@ -60,16 +64,19 @@ body {
     color: var(--accent-color);
 }
 
+/* Стилі для index.html */
+
 /* Hero */
 
 .hero-title {
     color: var(--color-white);
-    background-color: var(--bfckground-color-primary);
+    background-color: var(--background-color-primary);
 }
+
 .button {
     color: var(--color-white);
     background-color: var(--accent-color);
-  border: 0;
+ 
 }
 
 .button:hover,
@@ -106,4 +113,44 @@ body {
 
 .subtitle {
     color: var(--text-color);
+}
+
+/* Futer */
+
+.nav .items {
+    color: var(--color-white);
+}
+
+.nav .items:hover,
+.nav .items:focus {
+    color: var(--accent-color);
+}
+
+
+
+
+
+
+/* Стилі для portfolio.html */
+
+/* Кнопки навігації */
+
+.button {
+    color: var(--primary-text-color);
+    background-color: var(--background-color-sekondary);
+}
+
+.button:hover,
+.button:focus {
+    color: var(--color-white);
+    background-color: var(--accent-color);
+}
+
+/* Наші проекти */
+
+.aside-subject {
+    color: var(--primary-text-color);
+}
+
+.subject {color: var(--text-color);
 }
