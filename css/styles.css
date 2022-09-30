@@ -1,6 +1,16 @@
+:root {
+    --primary-text-color: #212121;
+    --color-white: #FFFFFF;
+    --text-color: #757575;
+    --accent-color: #2196F3;
+    --background-color-primary: #2F303A;
+    --background-color: #F5F5F5;
+    --background-color-sekondary: #F5F4FA;
+}
+
 body {
-    background-color: #F5F5F5;
-    color: #212121;
+    background-color: var(--background-color);
+    color: var(--primary-text-color);
 }
 
 .list {
@@ -16,27 +26,84 @@ body {
 /* колір контактів #757575 */
 
 .logo .logo-web {
-    color: #2196F3
+    color: var(--accent-color);
+}
+.logo .logo-web:hover,
+.logo .logo-web:focus {
+    color: var(--primary-text-color);
 }
 
 .logo .logo-studio {
-    color: #000000
+    color: #000000;
+}
+
+.logo .logo-studio:hover,
+.logo .logo-studio:focus {
+    color: var(--accent-color);
 }
 
 .site-nav .link {
-    color: #212121;
+    color: var(--primary-text-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .nav .item {
-    color: #757575;
+    color: var(--text-color);
 }
 
 .nav .item:hover,
  .nav .item:focus {
-    color: #2196F3;
+    color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero-title {
+    color: var(--color-white);
+    background-color: var(--bfckground-color-primary);
+}
+.button {
+    color: var(--color-white);
+    background-color: var(--accent-color);
+  border: 0;
+}
+
+.button:hover,
+ .button:focus {
+    color: var(--color-white);
+    background-color: #188CE8;
+}
+
+/* Section Переваги */
+
+.section-title {
+    color: var(--primary-text-color);
+}
+
+.subtitle {
+    color: var(--text-color);
+}
+
+/* Section Що робимо */
+
+.work-title {
+    color: var(--primary-text-color);
+}
+
+/* Section Наша команда */
+
+.team-title {
+    color: var(--primary-text-color);
+}
+
+.title {
+    color: var(--primary-text-color);
+}
+
+.subtitle {
+    color: var(--text-color);
 }
