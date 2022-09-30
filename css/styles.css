@@ -1,3 +1,10 @@
+/* колір основного тексту #212121*/
+/* вторинний колір тексту rgba(117, 117, 117, 1) */
+/* білий #FFFFFF */
+/* акцент #2196F3 */
+/* вторинний колір фона #F5F4FA */
+/* колір контактів #757575 */
+
 :root {
     --primary-text-color: #212121;
     --color-white: #FFFFFF;
@@ -11,20 +18,25 @@
 body {
     background-color: var(--background-color);
     color: var(--primary-text-color);
-}
+
+    font-family: Roboto, sans-serif; 
+    letter-spacing: 0.03em;
+    }
 
 .list {
     list-style: none;
 }
-/* колір основного тексту #212121*/
 
-/* вторинний колір тексту rgba(117, 117, 117, 1) */
+/* Лого */
 
-/* білий #FFFFFF */
-/* акцент #2196F3 */
-/* вторинний колір фона #F5F4FA */
-/* колір контактів #757575 */
+.logo {
 
+    font-family: Raleway, sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.9;
+        text-decoration: none;
+   }
 .logo .logo-web {
     color: var(--accent-color);
 }
@@ -34,7 +46,7 @@ body {
 }
 
 .logo .logo-studio {
-    color: #000000;
+        color: #000000;
 }
 
 .logo .logo-studio:hover,
@@ -44,6 +56,11 @@ body {
 
 .site-nav .link {
     color: var(--primary-text-color);
+    
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -66,16 +83,37 @@ body {
 
 /* Стилі для index.html */
 
+/* Header */
+
+.header {
+    background-color: var(--color-white);
+}
+
 /* Hero */
+
+.hero {
+    background-color: var(--background-color-primary);
+}
 
 .hero-title {
     color: var(--color-white);
-    background-color: var(--background-color-primary);
+
+    font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
 }
 
 .button {
     color: var(--color-white);
     background-color: var(--accent-color);
+
+    font-family: inherit;
+    font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;  
+        letter-spacing: 0.06em;
  
 }
 
@@ -89,36 +127,91 @@ body {
 
 .section-title {
     color: var(--primary-text-color);
+
+    font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;
 }
 
 .subtitle {
     color: var(--text-color);
+
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
 }
 
 /* Section Що робимо */
 
 .work-title {
     color: var(--primary-text-color);
+
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
 }
 
 /* Section Наша команда */
 
+.section-team {
+    background-color: var(--background-color-sekondary);
+}
 .team-title {
     color: var(--primary-text-color);
+
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
 }
 
 .title {
     color: var(--primary-text-color);
+
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
 }
 
 .subtitle {
     color: var(--text-color);
+
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.19;
 }
 
-/* Futer */
+/* Footer */
+
+.logo .logo-webf {
+    color: var(--accent-color);
+}
+
+.logo .logo-webf:hover,
+.logo .logo-webf:focus {
+    color: var(--color-white);
+}
+
+.logo .logo-studiof {
+    color: var(--color-white);
+}
+
+.logo .logo-studiof:hover,
+.logo .logo-studiof:focus {
+    color: var(--accent-color);
+}
+
+.footer {
+    background-color: var(--background-color-primary);
+}
 
 .nav .items {
     color: var(--color-white);
+
+    font-style: normal;
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.17;
 }
 
 .nav .items:hover,
@@ -135,13 +228,19 @@ body {
 
 /* Кнопки навігації */
 
-.button {
+.buttons {
     color: var(--primary-text-color);
     background-color: var(--background-color-sekondary);
+
+    font-family: inherit;
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
 }
 
-.button:hover,
-.button:focus {
+.buttons:hover,
+.buttons:focus {
     color: var(--color-white);
     background-color: var(--accent-color);
 }
@@ -150,7 +249,17 @@ body {
 
 .aside-subject {
     color: var(--primary-text-color);
+
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 2;  
+        letter-spacing: 0.06em;
 }
 
-.subject {color: var(--text-color);
+.subject {
+    color: var(--text-color);
+
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88;
 }
