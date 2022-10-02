@@ -247,6 +247,9 @@ body {
 
 /* Кнопки навігації */
 
+.btn {
+  background-color: var(--color-white);
+}
 .buttons {
   cursor: pointer;
 
