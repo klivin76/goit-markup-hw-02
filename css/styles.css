@@ -22,7 +22,7 @@
 
 body {
   color: var(--primary-text-color);
-  background-color: var(--background-color);
+  background-color: var(--color-white);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
@@ -78,6 +78,10 @@ body {
 .nav .item {
   color: var(--text-color);
 
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 
@@ -111,6 +115,8 @@ body {
 }
 
 .button {
+  cursor: pointer;
+
   color: var(--color-white);
   background-color: var(--accent-color);
 
@@ -288,7 +294,6 @@ body {
 .subject {
   color: var(--text-color);
 
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
 }
